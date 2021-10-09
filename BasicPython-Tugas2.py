@@ -28,8 +28,10 @@ def daftar_kontak():
     if len(DataKontak) <= 0 :
         print ("Belum ada kontak")
     else :
-        for indeks in range(len(DataKontak)) :
-            print ("[%d]%s"%(indeks,DataKontak[indeks]))
+        for Indeks in range(len(DataKontak)) :
+            print(f"Nama: {DataKontak[Indeks]}")
+            print(f"Nomor: {DataNomor[Indeks]}")
+            print()
 
 def tambah_kontak():
     data = input("Nama : ")
